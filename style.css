@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+table {
+    background-color: lightcoral;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 2px solid coral;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 555px;
+    height: 130px;
+    font-size: 90px;
+    font-family: Oswald;
+}
+
+#jednako {
+    height: 260px;
+}
+
+#brisi {
+    width: 280px;
+} 
+
+button {
+    width: 133px;
+    font-size:50px;
+    box-shadow: 1px 2px gray;
+    font-family: Oswald;
+}
+
+button:hover, #jednako:hover, #puta:hover, #plus:hover, #minus:hover, #dijeljenje:hover {
+    background-color: darkgray;
+}
+
+#puta, #plus, #minus, #dijeljenje {
+    background-color: rgb(223, 223, 223);
+}
+
+#jednako {
+    background-color: rgb(241, 201, 201);
+}
+
+#naslov {
+    text-align: center;
+    font-family: Oswald;
+}
