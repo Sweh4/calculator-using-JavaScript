@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="naslov">Calculator</h1>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="rezultat"/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><button id="plus" onclick="prikazi('+')">+</button></td>
+                <td><button id="minus" onclick="prikazi('-')">-</button></td>
+                <td><button id="puta" onclick="prikazi('*')">*</button></td>
+                <td><button id="dijeljenje" onclick="prikazi('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="devet" onclick="prikazi('9')">9</button></td>
+                <td><button id="osam" onclick="prikazi('8')">8</button></td>
+                <td><button id="sedam" onclick="prikazi('7')">7</button></td>
+                <td rowspan="3"><button id="jednako" onclick="rezultat()">=</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="sest" onclick="prikazi('6')">6</button></td>
+                <td><button id="pet" onclick="prikazi('5')">5</button></td>
+                <td><button id="cetiri" onclick="prikazi('4')">4</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="tri" onclick="prikazi('3')">3</button></td>
+                <td><button id="dva" onclick="prikazi('2')">2</button></td>
+                <td><button id="jedan" onclick="prikazi('1')">1</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="nula" onclick="prikazi('0')">0</button></td>
+                <td><button id="tacka" onclick="prikazi('.')">.</button></td>
+                <td colspan="2"><button id="brisi" onclick="cls()">AC</button></td>
+            </tr>
+
+                <script src="script.js"></script>
+</table>
+    </body>
+</html>
